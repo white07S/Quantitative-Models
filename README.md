@@ -44,9 +44,10 @@ We perform an in-depth analysis of the simulated interest rate paths and provide
 1. Interest Rate Paths: We plot the individual interest rate paths for both models, illustrating the mean-reverting behavior of the interest rates.
 
 2. Mean and Standard Deviation: We overlay the mean and standard deviation of the interest rate paths on the individual paths to demonstrate the convergence of the interest rates to their long-term mean.
-
+![MODEL](https://github.com/white07S/Quantitative-Models/blob/main/plots/model.png)
 3. Autocorrelation: We calculate the autocorrelation of interest rates for both models, which provides insights into the persistence of interest rate shocks over time.
-
+![AUTO](https://github.com/white07S/Quantitative-Models/blob/main/plots/auto.png)
 4. Interest Rate Distribution: We estimate the distribution of interest rates at the end of the simulation for both models. For the Vasicek Model, we observe a normal distribution, while the CIR Model exhibits a non-central chi-squared distribution.
-
+![IRD](https://github.com/white07S/Quantitative-Models/blob/main/plots/ird.png)
 5. Interest Rate Evolution: We visualize the evolution of interest rate distributions over time using kernel density estimation. This representation highlights the convergence of interest rates to their long-term mean.
+![IR](https://github.com/white07S/Quantitative-Models/blob/main/plots/ire.png)
